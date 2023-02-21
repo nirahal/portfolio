@@ -25,7 +25,7 @@ const Services = () => {
           </li>
           <li>      
             <FontAwesomeIcon className="service__list-icon" icon={faCheck} />
-            <p>Excellent verbal communication skills (ICAO Level 4 In English).</p>
+            <p>Excellent verbal communication skills.</p>
           </li>   
           <li>        
             <FontAwesomeIcon className="service__list-icon" icon={faCheck} />
