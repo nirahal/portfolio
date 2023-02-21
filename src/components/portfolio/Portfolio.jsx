@@ -14,14 +14,14 @@ const data=[
   },
   {
     id: 2,
-    image : IMG1,
+    image : IMG2,
     title: 'Markdown previewer',
     github: 'https://github.com/nirahal/markdown-previewer.git',
     demo: 'https://nirahal.github.io/markdown-previewer/'
   },
   {
     id: 3,
-    image : IMG1,
+    image : IMG3,
     title: 'Calculator',
     github: 'https://github.com/nirahal/calculatorProject.git',
     demo: 'https://nirahal.github.io/calculatorProject/'
@@ -42,7 +42,7 @@ const Portfolio = () => {
                 <img src={image} alt="porfolio-image"></img>
               </div>
               <h3>{title}</h3>
-              <div className="portfolio__item-csa">
+              <div className="portfolio__item-cta">
                 <a href={github} className='btn' target="_blank">Github</a>
                 <a href={demo} className='btn btn-primary' target="_blank">Live Demo</a>
               </div>

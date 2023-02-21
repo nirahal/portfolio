@@ -101,6 +101,12 @@ a:hover{
 .btn:hover{
     background-color: var(--color-white);
     color: var(--color-bg);
+    border-color: transparent;
+}
+
+.btn-primary{
+    background: var(--color-primary);
+    color: var(--color-bg);
 }
 
 img{

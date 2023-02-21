@@ -9,86 +9,88 @@ const Services = () => {
       <h5>What I Offer</h5>
       <h2>Services</h2>
       <div className="container service__container">
-        <article className="service">
-        <div className='service__head'>
-          <h3>UI/UX Design</h3>
-        </div>
-        <ul className='service__list'>
-          <li>
-            <FontAwesomeIcon className="service__list-icon" icon={faCheck} />
-            <p>"Lorem ipsum dolor sit amet, consectetur adipiscing elit"</p>  
-          </li>
-          <li>
-            <FontAwesomeIcon className="service__list-icon" icon={faCheck} />
-            <p>"Lorem ipsum dolor sit amet, consectetur adipiscing elit"</p>  
-          </li>
-          <li>
-            <FontAwesomeIcon className="service__list-icon" icon={faCheck} />
-            <p>"Lorem ipsum dolor sit amet, consectetur adipiscing elit"</p>  
-          </li>
-          <li>
-            <FontAwesomeIcon className="service__list-icon" icon={faCheck} />
-            <p>"Lorem ipsum dolor sit amet, consectetur adipiscing elit"</p>  
-          </li>
-          <li>
-            <FontAwesomeIcon className="service__list-icon" icon={faCheck} />
-            <p>"Lorem ipsum dolor sit amet, consectetur adipiscing elit"</p>  
-          </li>
-        </ul>
-      </article>
 
       <article className="service">
         <div className='service__head'>
-          <h3>Web Development</h3>
+          <h3>Knowledge</h3>
         </div>
         <ul className='service__list'>
           <li>
             <FontAwesomeIcon className="service__list-icon" icon={faCheck} />
-            <p>"Lorem ipsum dolor sit amet, consectetur adipiscing elit"</p>  
-          </li>   
-          <li>   
+            <p>Software Engineering degree.</p>  
+          </li>
+          <li>
             <FontAwesomeIcon className="service__list-icon" icon={faCheck} />
-            <p>"Lorem ipsum dolor sit amet, consectetur adipiscing elit"</p>   
+            <p>Online certifications from Harvard university.</p>  
           </li>
           <li>      
             <FontAwesomeIcon className="service__list-icon" icon={faCheck} />
-            <p>"Lorem ipsum dolor sit amet, consectetur adipiscing elit"</p>
+            <p>Excellent verbal communication skills (ICAO Level 4 In English).</p>
           </li>   
           <li>        
             <FontAwesomeIcon className="service__list-icon" icon={faCheck} />
-            <p>"Lorem ipsum dolor sit amet, consectetur adipiscing elit"</p>   
+            <p>Updated to the latest theoretical and practical concepts of Artificial Intelligence .</p>   
           </li>
           <li>
             <FontAwesomeIcon className="service__list-icon" icon={faCheck} />
-            <p>"Lorem ipsum dolor sit amet, consectetur adipiscing elit"</p>    
+            <p>Good problem solving skills.Attention to detail.</p>    
+          </li>
+        </ul>
+      </article>
+        
+
+      <article className="service">
+        <div className='service__head'>
+          <h3>Tailored Web Development</h3>
+        </div>
+        <ul className='service__list'>
+          <li>
+            <FontAwesomeIcon className="service__list-icon" icon={faCheck} />
+            <p>Creation and development of intuitive and responsive websites.</p>  
+          </li>
+          <li>
+            <FontAwesomeIcon className="service__list-icon" icon={faCheck} />
+            <p>Conception of multiple functionalities and integration of APIs.</p>  
+          </li>
+          <li>      
+            <FontAwesomeIcon className="service__list-icon" icon={faCheck} />
+            <p>Coding, testing and debugging skills.</p>
+          </li>   
+          <li>        
+            <FontAwesomeIcon className="service__list-icon" icon={faCheck} />
+            <p>Proficiency with fundamental front end and back end languages and frameworks.</p>   
+          </li>
+          <li>
+            <FontAwesomeIcon className="service__list-icon" icon={faCheck} />
+            <p>Writing and maintaining proper documentation.</p>    
           </li>
         </ul>
       </article>
 
       <article className="service">
         <div className='service__head'>
-          <h3>Content Creation</h3>
+          <h3>Project management</h3>
         </div>
         <ul className='service__list'>
           <li>
             <FontAwesomeIcon className="service__list-icon" icon={faCheck} />
-            <p>"Lorem ipsum dolor sit amet, consectetur adipiscing elit"</p>          
+            <p>Efficient planning, coordination and excecution.</p>          
           </li>
           <li>
             <FontAwesomeIcon className="service__list-icon" icon={faCheck} />
-            <p>"Lorem ipsum dolor sit amet, consectetur adipiscing elit"</p>          
+            <p>Respect of timelines, constraints and clents' specifications.</p>          
           </li>
           <li>
             <FontAwesomeIcon className="service__list-icon" icon={faCheck} />
-            <p>"Lorem ipsum dolor sit amet, consectetur adipiscing elit"</p>          
+            <p>Constant tracking of progress and evaluation of quality.</p>          
           </li>
           <li>
             <FontAwesomeIcon className="service__list-icon" icon={faCheck} />
-            <p>"Lorem ipsum dolor sit amet, consectetur adipiscing elit"</p>         
+            <p>Best practice strategies to help ensure projects are completed on time and within budget.</p>         
           </li>
           <li>
             <FontAwesomeIcon className="service__list-icon" icon={faCheck} />
-            <p>"Lorem ipsum dolor sit amet, consectetur adipiscing elit"</p>          
+            <p>Adapting and being flexible to changes through the project growth.</p>          
           </li>
         </ul>
       </article>

@@ -11,7 +11,7 @@ footer a{
 }
 
 .footer__logo{
-    width: 5%;
+    width: 10%;
     font-size: 2rem;
     font-weight: 500;
     margin-bottom: 2rem;
@@ -54,8 +54,13 @@ footer a{
 }
 
 /* media quier */
+@media  screen and (max-width: 1024px) {
+    .footer__logo{
+        width: 15%;
+        margin: 0;  
+    }
+ }
 
- 
  @media  screen and (max-width: 600px) {
    .permalinks{
     flex-direction: column;
@@ -65,4 +70,8 @@ footer a{
    .footer__socials{
     margin-bottom: 2.6rem;
    }
+   .footer__logo{
+    width: 20%;
+    margin: 0;
+    }
  }
