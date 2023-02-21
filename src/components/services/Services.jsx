@@ -50,7 +50,7 @@ const Services = () => {
           </li>
           <li>
             <FontAwesomeIcon className="service__list-icon" icon={faCheck} />
-            <p>Conception of multiple functionalities and integration of APIs.</p>  
+            <p>Conception of functionalities and integration of APIs.</p>  
           </li>
           <li>      
             <FontAwesomeIcon className="service__list-icon" icon={faCheck} />
